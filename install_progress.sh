@@ -6,8 +6,7 @@ shell_install () {
 if [ $result -ne 0 ];then
     line=$(grep -nw "${FUNCNAME[2]}" $0|sed -n "$[$n+1]"p|awk -F ':' '{print $1}')
     code=$(sed -n "$[$line-1]"p "$0")
-    echo -e "\033[31m ----------------------Install error lines:  $[$line-1]----------------------
-\033[0m"
+    echo -e "\033[31m -------------------Install error lines:  $[$line-1]-------------------\033[0m"
     echo -e "\033[31m Install failed code:  $code \033[0m"
     exit $n
 fi
@@ -41,13 +40,9 @@ fi
 # 执行脚本会显示 new_funcname的安装进度条
 # Executing the script will display the new funcname's installation progress bar
 
-lnmp () {
-ok
-}
+lnmp () { ok; }
 
-lamp () {
-ok
-}
+lamp () { ok; }
 
 lamp_install () {
 lamp
