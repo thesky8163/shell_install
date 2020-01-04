@@ -30,11 +30,16 @@ fi
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 以下为示例 The following is an example
+# 以下为示例
+# The following is an example
 # 可在一个脚本内展示多个服务的安装进度，函数命名不要冲突
 # The installation progress of multiple services can be displayed in one script, and the function naming shall not conflict
-# 使用方法，如安装 lnmp_cluster，只需要用函数把函数ok包起来以后，在脚本中多次调用lnmp名即可使用
-# Use methods, for example to install LNMP_cluster, you only need to package the function OK with the function,Call LNMP name multiple times in the script to use
+# 使用方法，如安装LNMP，只需要用函数把函数ok包起来以后，在脚本中多次调用LNMP名即可使用
+# Use methods, for example to install LNMP, you only need to package the function OK with the function,Call LNMP name multiple times in the script to use
+# new_funcname () { ok; }
+# new_funcname
+# 执行脚本会显示 new_funcname的安装进度条
+# Executing the script will display the new funcname's installation progress bar
 
 lnmp () {
 ok
