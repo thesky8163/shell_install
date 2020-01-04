@@ -5,8 +5,8 @@ The installation progress of multiple services can be displayed in one script, a
 使用方法，如安装 lnmp_cluster，只需要用函数把函数ok包起来以后，在脚本中多次调用lnmp名即可使用  
 Use methods, for example to install LNMP_cluster, you only need to package the function OK with the function,Call LNMP name multiple times in the script to use  
 
-lnmp () {ok;}  
-lamp () {ok;}  
+lnmp () { ok; }  
+lamp () { ok; }  
   
 lamp_install () {  
 lamp  
