@@ -1,12 +1,12 @@
-#### Usage method  
-#### new_funcname_01 () { ok; }  
-#### new_funcname_01  
-#### 执行脚本会显示 new_funcname_01的安装进度条，可定义多个新函数,定义时函数名不能冲突  
-#### Executing the script will display the installation progress bar of new funcname, which can define multiple new functions, function name cannot conflict when defining  
-####   
-#### 以下为示例  
-#### The following is an example  
-
+Usage method  
+new_funcname_01 () { ok; }  
+new_funcname_01  
+执行脚本会显示 new_funcname_01的安装进度条，可定义多个新函数,定义时函数名不能冲突  
+Executing the script will display the installation progress bar of new funcname, which can define multiple new functions, function name cannot conflict when defining  
+   
+以下为示例  
+The following is an example  
+  
   
 lnmp () { ok; }  
 lamp () { ok; }  
