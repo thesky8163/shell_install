@@ -1,3 +1,4 @@
+使用方法  
 Usage method  
 new_funcname_01 () { ok; }  
 new_funcname_01  
